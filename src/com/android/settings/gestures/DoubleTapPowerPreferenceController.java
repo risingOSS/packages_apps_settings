@@ -52,7 +52,7 @@ public class DoubleTapPowerPreferenceController extends GesturePreferenceControl
 
     @Override
     public int getAvailabilityStatus() {
-        return isGestureAvailable(mContext) ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        return UNSUPPORTED_ON_DEVICE;
     }
 
     @Override
